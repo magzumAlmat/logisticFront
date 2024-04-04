@@ -1,0 +1,43 @@
+.icon svg {
+  width: 1.3rem;
+  height: 1.3rem;
+  object-fit: cover;
+}
+
+.icon {
+  width: 1.7rem;
+  height: 1.7rem;
+  object-fit: cover;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gray {
+  color: var(--icon-default);
+}
+
+.white {
+  color: white;
+}
+
+.blue {
+  color: var(--primary);
+}
+
+.green {
+  color: #4caf50;
+}
+
+.bgtransparent {
+  background-color: transparent;
+}
+
+.bgblue {
+  background-color: var(--primary);
+}
+
+.bgviolet {
+  background-color: #874efb;
+}

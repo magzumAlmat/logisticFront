@@ -1,0 +1,9 @@
+.menuItem {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.menuItem svg {
+  color: var(--icon-default);
+}

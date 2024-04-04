@@ -1,0 +1,71 @@
+.nav {
+  width: 100%;
+  padding: 1rem;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.14);
+  -moz-box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.14);
+  box-shadow: 0px 0px 8px 0px rgba(34, 60, 80, 0.14);
+  position: fixed;
+  z-index: 1000;
+}
+
+.nav.auto {
+  background-color: var(--primary);
+}
+
+.nav.spec {
+  background-color: var(--specialbg);
+}
+
+.nav.railway {
+  background-color: var(--railway);
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+
+.logoIcon {
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 800;
+  font-size: 18px;
+  color: var(--primary);
+}
+
+.auto {
+  background-color: var(--white);
+}
+
+.spec {
+  background-color: white;
+}
+
+.railway {
+  background-color: white;
+}
+
+.logo p {
+  font-weight: 600;
+}
+
+.link:hover .iconGray {
+  color: var(--primary) !important;
+}
